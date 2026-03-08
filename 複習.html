@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <!-- 禁用縮放以移除雙擊縮放功能 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>114年LeaderExamination複習 - 丙級軟體</title>
+  <title>丙級軟體</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -301,7 +301,7 @@
 </head>
 <body>
   <div class="container-fluid">
-    <h2 class="mb-2" id="toggle-checkboxes" style="text-align: center; color: #9A0036;">LeaderExamination（丙級軟體）</h2>
+    <h2 class="mb-2" id="toggle-checkboxes" style="text-align: center; color: #9A0036;">（丙級軟體）</h2>
     <div class="row mb-1">
       <div class="col-12 progress-header">
         <strong>當前題號/總題數:</strong>
@@ -509,7 +509,7 @@
     let quickMode = false;
 	let highlightEnabled = true;
     let currentDataset = null;
-    const DEFAULT_REVIEW_TITLE = 'LeaderExamination 複習';
+    const DEFAULT_REVIEW_TITLE = '丙級軟體複習';
 	
     window.currentQuestion = null;
 
@@ -546,7 +546,7 @@
     }
 
     function updateReviewPageTitle() {
-      const label = currentDataset ? currentDataset.title : 'LeaderExamination';
+      const label = currentDataset ? currentDataset.title : '丙級軟體';
       document.getElementById('toggle-checkboxes').textContent = `${label} 複習`;
       document.title = `${label} 複習`;
     }
